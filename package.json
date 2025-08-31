@@ -5,7 +5,7 @@
   "main": "scripts/generate.js",
   "scripts": {
     "prebuild": "node scripts/generate.js",
-    "build": "mdbook build",
+    "build": "npm run prebuild && mdbook build",
     "serve": "mdbook serve -n 127.0.0.1 -p 3000",
     "dev": "npm run prebuild && npm run serve",
     "clean": "rm -rf book/"
