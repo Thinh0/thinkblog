@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello, World",
+    "date": "2025-08-30",
+    "description": "Kicking off my minimal static blog."
+  },
+  {
+    "slug": "second-post",
+    "title": "Second Post",
+    "date": "2025-08-29",
+    "description": "Thoughts on keeping things simple."
+  }
+]
