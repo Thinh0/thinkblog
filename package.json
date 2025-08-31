@@ -1,0 +1,16 @@
+{
+  "name": "thinkblog",
+  "version": "1.0.0",
+  "description": "A clean, fast blog built with mdBook",
+  "main": "scripts/generate.js",
+  "scripts": {
+    "prebuild": "node scripts/generate.js",
+    "build": "mdbook build",
+    "serve": "mdbook serve -n 127.0.0.1 -p 3000",
+    "dev": "npm run prebuild && npm run serve",
+    "clean": "rm -rf book/"
+  },
+  "keywords": ["blog", "mdbook", "markdown"],
+  "author": "",
+  "license": "MIT"
+}
