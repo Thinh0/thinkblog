@@ -10,6 +10,8 @@ Mefit is an app for gym goers to search for workout plans, book PTs to help with
 
 ## The Design of the App
 
+![App Design](./images/Mefit_Design.png)
+
 ## Use Cases
 
 #### Use Case 1: Register/Log in
@@ -65,6 +67,8 @@ On launch, Mefit is expected to have the essential features that allow gym goers
 ## Data Modeling
 
 For Mefit, data modeling plays an important role in organizing and managing user information, workouts, and tracking progress. Mefit will be structured around the following core entities: Users, Trainers, Workout Plans, Exercises, Progress Logs, and Transaction Logs. Each entity will contain specific attributes based on its role. For example, User entity will have attributes like UserID, UserName, DateOfBirth, UserEmail, and UserAge, while Workout Plan entity will include WorkoutGoal, WorkoutDuration, WorkoutExercises. And these entities will be connected through relationships: A user can follow multiple workout plans, each plan can have multiple exercises, and progress logs will be linked to specific plans and dates. This relational model will help ensure that all the data is structured logically and efficiently.
+
+![Database Screenshot](./images/Mefit_Database.png)
 
 ## Conclusion
 

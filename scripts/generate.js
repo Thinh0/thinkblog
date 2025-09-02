@@ -6,10 +6,10 @@ const crypto = require('crypto');
 
 // Site configuration
 const SITE_CONFIG = {
-  title: 'My mdBook Blog',
+  title: 'ThinkBlog',
   description: 'A clean, fast blog built with mdBook',
-  url: 'https://username.github.io/repo', // Update this with your actual URL
-  author: 'Your Name', // Update this
+  url: 'https://thinh0.github.io/thinkblog/', // Update this with your actual URL
+  author: 'Thinh Nguyen', // Update this
   language: 'en'
 };
 
