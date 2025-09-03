@@ -16,7 +16,7 @@ Then in April 2007, a small group of implementers from Google wrote a proposal f
 
 ## How Does It Work?
 
-
+Before reading articles about OAuth, I didn't have much awareness about password phishing or other kinds of cyber attacks. I thought OAuth was just another way to sign in but just a little faster than using regular passwords so I didn't use OAuth. But after going through OAuth, I finally understand why so many websites and applications use this type of sign in. So, what is it? OAuth is a security protocol that solves the problem of third-party applications needing access to user data without sharing their passwords. Instead of asking users to share their Gmail or Twitter password directly, OAuth works by having the user authorize the app through the service provider (such as Google or Twitter). The service then gives the app a temporary access token that grants specific permissions for a limited time. This token can be used to make API calls on the user's behalf without the need of their password and the user can revoke access anytime. The basic flow involves the app redirecting the user to the service provider's login page, the user then approve the requested permissions, and the service redirecting back with an authorization code that the app exchanges for an access token. Here is an example for better understanding (this actually helps me understand the flow of OAuth):
 
 ## OAuth vs. OAuth2.0
 
